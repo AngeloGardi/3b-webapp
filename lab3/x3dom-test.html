@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>first X3DOM page</title>
+    <script src="js/x3dom.js"></script>
+    <style>
+      .contents {
+        width: 700px;
+        border: 5px solid gray;
+        background: lightblue;
+        padding: 30px;
+        margin: 20px;
+      }
+      #modelStyle {
+        border: double;
+        width: 500px;
+        background: lightgrey;
+        margin-left: inherit;
+      }
+      .centre {
+        text-align: center;
+      }
+      p.centre {
+        text-align: center;
+        color: red;
+        font-weight: bold;
+      }
+      p {
+        margin-left: 10px;
+      }
+      .textBox {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contents">
+      <h1 class="centre textBox">VRML to X3D Conversion Workflow Result</h1>
+      <p class="textBox">
+       Conversion from VRML to X3D..
+      </p>
+      <div id="modelStyle">
+        <x3d width="500px" height="400px">
+          <scene>
+            <p class="centre">
+              This Coke Can was built using 3ds Max and exported to VRML97
+            </p>
+            <inline url="assets/x3d/CokeCan.x3d"></inline>
+          </scene>
+        </x3d>
+      </div>
+      <p class="textBox">Should be able to do same using X3D-Edit 4.6.</p>
+    </div>
+  </body>
+  <link rel="stylesheet" href="css/x3dom.css" />
+</html>
