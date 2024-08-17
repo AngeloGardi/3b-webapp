@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 4.0//EN" "http://www.web3d.org/specifications/x3d-4.0.dtd">
+<X3D profile="Interchange" version="4.0"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance"
+     xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-4.0.xsd">
+<head>
+	<meta name="generator" content="castle-model-converter, https://castle-engine.io/castle-model-converter" />
+	<meta name="source" content="drpepper.wrl" />
+</head>
+<Scene>
+	<Viewpoint DEF="Camera003"
+		position="0.59259998798370361 0 -200"
+		orientation="0 -1 0 -3.1419999599456787"
+		fieldOfView="0.60240000486373901"
+		description="Camera003" />
+	<NavigationInfo DEF="NavInfo001"
+		avatarSize="0.25 1.6000000238418579 0.75"
+		type='"EXAMINE"' />
+	<PointLight DEF="Omni001"
+		global="true"
+		location="70.389999389648438 0 0"
+		radius="699.5" />
+	<PointLight DEF="Omni002"
+		global="true"
+		location="-69.839996337890625 0 0"
+		radius="699.5" />
+	<PointLight DEF="Omni003"
+		global="true"
+		location="0 0 70.110000610351563"
+		radius="699.5" />
+	<PointLight DEF="Omni004"
+		global="true"
+		location="0 0 -69.160003662109375"
+		radius="699.5" />
+	<PointLight DEF="Omni005"
+		global="true"
+		location="0.34769999980926514 80 0"
+		radius="699.5" />
+	<PointLight DEF="Omni006"
+		global="true"
+		location="-0.025629999116063118 -60 0"
+		radius="699.5" />
+	<Viewpoint DEF="Camera004"
+		position="0 0 200"
+		orientation="1 0 0 0"
+		fieldOfView="0.60240000486373901"
+		description="Camera004" />
+	<Viewpoint DEF="Camera005"
+		position="0 200 0"
+		orientation="0.57639998197555542 0.57920002937316895 0.57639998197555542 -2.0920000076293945"
+		fieldOfView="0.60240000486373901"
+		description="Camera005" />
+	<Viewpoint DEF="Camera006"
+		position="0 -200 0"
+		orientation="-0.57709997892379761 -0.5778999924659729 0.57709997892379761 -2.0940001010894775"
+		fieldOfView="0.60240000486373901"
+		description="Camera006" />
+	<Viewpoint DEF="Camera007"
+		position="-200 0 0"
+		orientation="0 -1 0 -4.7049999237060547"
+		fieldOfView="0.60240000486373901"
+		description="Camera007" />
+	<Viewpoint DEF="Camera008"
+		position="200 0 0"
+		orientation="0 -1 0 -1.5750000476837158"
+		fieldOfView="0.60240000486373901"
+		description="Camera008" />
+</Scene>
+</X3D>
