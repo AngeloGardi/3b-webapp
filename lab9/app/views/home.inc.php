@@ -309,7 +309,7 @@ $contactInfoStrings = $contactInfoStrings->getContactInfoStrings();
                     <a href="#"><i class="fab fa-facebook-square fa-2x" style="font-size: 35px; color: black"></i></a>
                     <a href="#"><i class="fab fa-twitter fa-2x" style="font-size: 35px; color: rgb(4, 155, 255)"></i></a>
                     <a href="#"><i class="fab fa-google-plus fa-2x" style="font-size: 35px; color: rgba(4, 255, 17, 0.781)"></i></a>
-                    <a href="#"><i class="fab fa-github-square fa-2x" style="font-size: 35px; color: rgba(255, 255, 255, 0.781)"></i></a>
+                    <a href="https://github.com/AngeloGardi/3d-webapp" target="_blank"><i class="fab fa-github-square fa-2x" style="font-size: 35px; color: rgba(255, 255, 255, 0.781)"></i></a>
                 </div>
             </div>
         </nav>
