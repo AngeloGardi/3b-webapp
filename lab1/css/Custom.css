@@ -1,0 +1,368 @@
+@font-face {
+    font-family: cocaColaFont;
+    src: url(../assets/fonts/LOKICOLA.TTF);
+    }
+
+body {
+    background-color: rgba(141, 141, 141, 0.534);
+    }
+    .main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+p, a {
+    font-family: 'Open Sans', sans-serif;
+    }
+
+h1, h2 {
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: cocaColaFont;
+    }
+
+h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+#main_3d_image {
+    background-image: url(../assets/images/main_3D.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* The div block for the main_3d_image has no vertical size,
+    so we need a height to see the background image */
+    height: 200px;
+    }
+    #main_text {
+    float: left;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    background-color: rgba(255,255,255,0.8);
+    padding: 10px;
+    border-radius: 5px;
+    }
+    #main_text h2 {
+    color:  rgba(255,255,255,0.8);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+    #main_text h3 {
+    color: rgb(148, 0, 0);
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    }
+
+    #main_text h4{
+    color: rgb(247, 157, 55);
+    font-size: 12px;
+    margin-bottom: 5px;
+    }
+
+    #main_text p {
+    font-size: 12px;
+    margin: 0px;
+    line-height: 1.2;
+    }
+    
+    .card {
+    
+    border: 1px solid rgba(0,0,0,.125);
+    /* border-radius: .25rem;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(105, 105, 105, 0.8);
+    }
+
+    /* CSS rule to style the mobile logo */
+.logo {
+    margin-top: 3px;
+    }
+
+.logo h1 {
+    font-family: cocaColaFont; /* You don't need to repeat this for each
+    media query as it is propagated */
+    font-size: 31px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+    }
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 31px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+    }
+.logo h3 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 0px;
+    padding-left: 0px;
+    float: left;
+    }
+.logo p {
+    font-size: 7px;
+    margin-top: 22px; 
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 3px;
+    }
+
+.navbar_coca_cola {
+    background-color: #760003; 
+    border-width: 0px;
+    min-height: 70px;
+    }
+   
+.navbar_coca_cola .navbar-brand {
+    color: rgb(245, 235, 235);
+    }
+
+.navbar_coca_cola .navbar-brand:hover {
+    color: black;
+    }
+
+.navbar_coca_cola .navbar-nav > li > a {
+    color: white;
+    }
+
+.navbar_coca_cola .navbar-nav > li > a:hover,
+.navbar_coca_cola .navbar-nav > li > a:focus {
+    color: white;
+    }
+.navbar_coca_cola .navbar-nav .nav-item {
+    margin-top: 0px;
+    }
+/* CSS rule to overwrite the bootstrap.css rules for setting the active
+font color and background colour
+*/
+.navbar_coca_cola .navbar-nav .nav-item > .active,
+.navbar_coca_cola .navbar-nav > .active > a:hover,
+.navbar_coca_cola .navbar-nav > .active > a:focus {
+    color: black; /* Font color for active font */
+    background-color: rgba(255,255,255,0.8);
+    }
+/* A set of CSS rules to change the Bootstrap defaults for the menu link
+text color, hover, background, focus
+*/
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+*/
+.navbar_coca_cola .navbar-nav > li > a:hover,
+.navbar_coca_cola .navbar-nav > li > a:focus {
+    color: black;
+    }
+
+/* CSS rule to style the icon bar */
+.navbar_coca_cola .navbar-toggler {
+    border-color: white;
+    outline: none !important; /* Remove the outline when the button is clicked */
+  }
+  
+  .navbar_coca_cola .navbar-toggler-icon {
+    /* Use a custom background image for the icon */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  /* Let's style the dropdown menu */
+  .dropdown-menu {
+    text-align: left; /* Align the text to the left within the dropdown menu */
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px; /* Adjust the margin to move the dropdown menu down */
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: darkred;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    color: #030303;
+    background-color: #ffffff;
+  }
+  
+
+/* CSS rule to style the footer */
+.footer {
+    color: #030303;
+    background-color: #760003;
+    height: 50px;
+  }
+  
+  .navbar-text > a {
+    font-size: 10px;
+  }
+  
+  .navbar-text > p {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .copyright {
+    padding-top: 8px;
+    }
+
+    .social {
+    padding-top: 0px;
+    }
+    
+@media (min-width: 576px) { 
+    .card {
+    
+    border: 1px solid rgba(0,0,0,.125);
+    /* border-radius: .25rem;*/
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(105, 105, 105, 0.8);
+    }
+
+    /* CSS rule to style the mobile logo */
+.logo {
+    margin-top: 3px;
+    }
+
+.logo h1 {
+    font-family: cocaColaFont; /* You don't need to repeat this for each
+    media query as it is propagated */
+    font-size: 60px;
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    float: left;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 2px;
+    }
+.logo h2 {
+    font-family: cocaColaFont;
+    font-size: 60px;
+    margin-top: -6px;
+    margin-bottom: -15px;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 3px;
+    float: left;
+    }
+.logo h3 {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: -5px;
+    padding-top: 10px;
+    padding-left: 8px;
+    float: left;
+    }
+.logo p {
+    font-size: 15px;
+    margin-top: 22px; 
+    margin-bottom: 0px;
+    padding-top: 32px;
+    padding-left: 0px;
+    }
+
+.navbar_coca_cola {
+    background-color: #760003; 
+    border-width: 0px;
+    min-height: 70px;
+    }
+   
+.navbar_coca_cola .navbar-brand {
+    color: rgb(245, 235, 235);
+    }
+
+.navbar_coca_cola .navbar-brand:hover {
+    color: black;
+    }
+
+.navbar_coca_cola .navbar-nav > li > a {
+    color: white;
+    }
+
+.navbar_coca_cola .navbar-nav > li > a:hover,
+.navbar_coca_cola .navbar-nav > li > a:focus {
+    color: white;
+    }
+.navbar_coca_cola .navbar-nav .nav-item {
+    margin-top: 0px;
+    }
+/* CSS rule to overwrite the bootstrap.css rules for setting the active
+font color and background colour
+*/
+.navbar_coca_cola .navbar-nav .nav-item > .active,
+.navbar_coca_cola .navbar-nav > .active > a:hover,
+.navbar_coca_cola .navbar-nav > .active > a:focus {
+    color: black; /* Font color for active font */
+    background-color: rgba(255,255,255,0.8);
+    }
+/* A set of CSS rules to change the Bootstrap defaults for the menu link
+text color, hover, background, focus
+*/
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+*/
+.navbar_coca_cola .navbar-nav > li > a:hover,
+.navbar_coca_cola .navbar-nav > li > a:focus {
+    color: black;
+    }
+
+/* CSS rule to style the icon bar */
+.navbar_coca_cola .navbar-toggler {
+    border-color: white;
+    outline: none !important; /* Remove the outline when the button is clicked */
+  }
+  
+  .navbar_coca_cola .navbar-toggler-icon {
+    /* Use a custom background image for the icon */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  /* Let's style the dropdown menu */
+  .dropdown-menu {
+    text-align: left; /* Align the text to the left within the dropdown menu */
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 20px; /* Adjust the margin to move the dropdown menu down */
+  }
+  
+  .dropdown-menu .dropdown-item {
+    color: darkred;
+  }
+  
+  .dropdown-menu .dropdown-item:hover {
+    color: #030303;
+    background-color: #ffffff;
+  }
+  
+
+/* CSS rule to style the footer */
+.footer {
+    color: #030303;
+    background-color: #760003;
+    height: 50px;
+  }
+  
+  .navbar-text > a {
+    font-size: 10px;
+  }
+  
+  .navbar-text > p {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .navbar-text.float-left {
+    float: left;
+  }
+  
+  .navbar-text.float-right {
+    float: right;
+  }
+}
+
